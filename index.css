@@ -5,8 +5,6 @@ body {
 }
 
 .parallelogram {
-  /* clip-path: polygon(0 0, 100% 0, 100% 50%, 70% 50%, 30% 100%, 0 100%); */
-  /* background-color: rebeccapurple; */
   position: relative;
 }
 .parallelogram::before {
