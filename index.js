@@ -39,4 +39,5 @@ firstRun();
 document.getElementById('start-button').addEventListener('click', function () {
   document.getElementById('front-container-start').classList.add('hidden');
   document.getElementById('front-container-content').classList.remove('hidden');
+  document.getElementById('back-container').classList.remove('hidden');
 });

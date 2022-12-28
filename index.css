@@ -4,7 +4,8 @@ body {
   font-family: 'Press Start 2P';
 }
 
-.parallelogram {
+.parallelogram,
+.parallelogram-inverted {
   position: relative;
 }
 .parallelogram::before {
@@ -21,6 +22,26 @@ body {
     0 100%
   );
   background-color: #950000;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+}
+
+.parallelogram-inverted::before {
+  content: '';
+  position: absolute;
+  clip-path: polygon(
+    0 90%,
+    35% 90%,
+    65% 60%,
+    100% 60%,
+    100% 70%,
+    65% 70%,
+    35% 100%,
+    0 100%
+  );
+  clip-path: polygon(0 70%, 35% 70%, 65% 100%, 0 100%);
+  background-color: #ff0000;
   z-index: 99;
   width: 100%;
   height: 100%;
