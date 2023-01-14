@@ -2,7 +2,7 @@
 
 Para ver una demo de la practica:
 
-- [pokedex-launchxlatam.netlify.app](pokedex-launchxlatam.netlify.app)
+- [pokedex-launchxlatam.netlify.app](https://pokedex-launchxlatam.netlify.app)
 
 ## Descripción
 
